@@ -17,7 +17,7 @@ public class my_labController {
 
 
     boolean isArrowFlying = false;
-    double arrowSpeed = 40;
+    double arrowSpeed = 60;
     double arrowX = 0;
     double arrowY = 195;
 
@@ -73,7 +73,7 @@ public class my_labController {
         if (mainPane != null) {
             double height = mainPane.getHeight();
             double y = circle_2.getLayoutY();
-            y += 50;
+            y += 30;
             if (y > height) {
                 circle_2.setLayoutY(0);
             } else {
